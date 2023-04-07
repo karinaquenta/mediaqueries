@@ -1,0 +1,57 @@
+body{
+    background-color: blue;
+    color: white;
+}
+
+.container{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas:
+    "1 2 3 4"
+    "a b c d";
+}
+
+.logo1{
+    grid-area: 1;
+}
+
+.logo2{
+    grid-area: 2;
+}
+
+.logo3{
+    grid-area: 3;
+}
+
+.logo4{
+    grid-area: 4;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.bl1{
+    grid-area: a;
+}
+
+.bl2{
+    grid-area: b;
+}
+
+.bl3{
+    grid-area: c;
+}
+
+.bl4{
+    grid-area: d;
+}
+
+div{
+    width: 200px;
+    height: auto;
+}
